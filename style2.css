@@ -3,9 +3,9 @@
 
   --main-menu-items: rgb(19, 83, 27);
 
-  --menu-item-title: green;
-  --menu-item-description: grey;
-  --menu-item-price: red;
+  --menu-item-title: rgb(152, 211, 152);
+  --menu-item-description: rgb(190, 189, 189);
+  --menu-item-price: rgb(177, 35, 35);
 
   --menu-sub-item-title: orange;
 }
@@ -175,8 +175,6 @@ section {
   padding: 1.5rem;
   text-align: center;
   list-style-type: none;
-  /* backdrop-filter: unset;
-  -webkit-backdrop-filter: unset; */
 }
 
 .entradas ul li {
