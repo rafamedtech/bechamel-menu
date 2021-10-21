@@ -1,11 +1,11 @@
 :root {
   --section-header-title: white;
 
-  --main-menu-items: rgb(19, 83, 27);
+  --main-menu-items: rgb(177, 118, 41);
 
-  --menu-item-title: green;
+  --menu-item-title: orange;
   --menu-item-description: grey;
-  --menu-item-price: red;
+  --menu-item-price: rgb(131, 131, 179);
 
   --menu-sub-item-title: orange;
 }
