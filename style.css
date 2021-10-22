@@ -245,3 +245,22 @@ section {
 .pizzas-container ul li {
   margin-bottom: 1.5rem;
 }
+
+.calzone ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  max-width: 80vw;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.calzone ul li {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  width: 100%;
+}
