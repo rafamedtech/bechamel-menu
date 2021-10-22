@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+
 :root {
   --section-header-title: white;
 
@@ -7,7 +9,7 @@
   --menu-item-description: grey;
   --menu-item-price: rgb(131, 131, 179);
 
-  --menu-sub-item-title: orange;
+  --menu-sub-item-title: rgb(0, 110, 255);
 }
 
 * {
@@ -32,7 +34,7 @@ a {
 
 main {
   scroll-snap-type: y mandatory;
-  /* overflow-y: scroll; */
+  overflow-y: scroll;
 }
 
 .menu-title {
@@ -94,7 +96,8 @@ section {
 
 .section-header h2 {
   position: absolute;
-  font-size: 3rem;
+  font-family: 'Freehand', cursive;
+  font-size: 4rem;
   color: var(--section-header-title);
 }
 
@@ -115,6 +118,10 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
+}
+
+.sub-section.one-column {
+  grid-template-columns: 1fr;
 }
 
 .sub-section-title {
@@ -168,5 +175,73 @@ section {
 }
 
 .desayunos-items-container ul li {
+  margin-bottom: 1.5rem;
+}
+
+.especiales-container {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.especiales ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 1.5rem;
+  text-align: center;
+  gap: 2rem;
+}
+
+.ensaladas ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 1.5rem;
+  text-align: center;
+  gap: 3rem;
+  height: 85vh;
+}
+
+.ensaladas .section-item {
+  font-size: 3rem;
+}
+
+.ensaladas .section-description {
+  font-size: 1.5rem;
+}
+
+.ensaladas .section-price {
+  font-size: 1.8rem;
+}
+
+.pizzas span {
+  display: block;
+  text-align: center;
+  font-size: 1.4rem;
+  height: calc(5vh - 1rem);
+  margin-top: 1rem;
+}
+
+.pizzas-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 80vh;
+  place-content: center;
+  padding: 1.5rem;
+  gap: 2rem;
+}
+
+.pizzas-container ul {
+  list-style-type: none;
+}
+
+.pizzas-container ul li {
   margin-bottom: 1.5rem;
 }
