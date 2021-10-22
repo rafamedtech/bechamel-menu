@@ -209,8 +209,8 @@ section {
   height: 85vh;
 }
 
-/* .ensaladas .section-item {
-  font-size: 3rem;
+.ensaladas .section-item {
+  font-size: 2.5rem;
 }
 
 .ensaladas .section-description {
@@ -219,7 +219,7 @@ section {
 
 .ensaladas .section-price {
   font-size: 1.8rem;
-} */
+}
 
 .pizzas span {
   display: block;
