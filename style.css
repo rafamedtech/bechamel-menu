@@ -240,6 +240,10 @@ section {
   height: 85vh;
 }
 
+.ensaladas ul li > * {
+  margin: 0.5rem;
+}
+
 .ensaladas .section-item {
   font-size: 2.5rem;
 }
@@ -258,6 +262,7 @@ section {
   font-size: 1.4rem;
   height: calc(5vh - 1rem);
   margin-top: 1rem;
+  color: grey;
 }
 
 .pizzas-container {
@@ -275,10 +280,6 @@ section {
 
 .pizzas-container ul li {
   margin-bottom: 1.5rem;
-}
-
-.pizzas-container ul li > * {
-  /* margin: 5px; */
 }
 
 .pizzas-container .section-description {
@@ -338,6 +339,10 @@ section {
 
 .pastas ul li > * {
   margin: 1.5rem;
+}
+
+.pastas .section-item {
+  font-size: 2.5rem;
 }
 
 .postres-container {
