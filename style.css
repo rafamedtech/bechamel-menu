@@ -3,13 +3,15 @@
 :root {
   --section-header-title: white;
 
-  --main-menu-items: rgb(177, 118, 41);
+  /* --main-menu-items: rgb(177, 118, 41); */
+  --main-menu-items: rgb(130, 198, 126);
+  --title-font: 'Freehand', cursive;
 
-  --menu-item-title: orange;
+  --menu-item-title: rgb(99, 191, 193);
   --menu-item-description: grey;
-  --menu-item-price: rgb(131, 131, 179);
+  --menu-item-price: rgb(130, 198, 126);
 
-  --menu-sub-item-title: rgb(0, 110, 255);
+  --menu-sub-item-title: rgb(247, 158, 190);
 }
 
 * {
@@ -41,6 +43,7 @@ main {
   text-align: center;
   height: 5vh;
   font-size: 4rem;
+  font-family: var(--title-font);
 }
 
 .main-menu {
@@ -86,7 +89,7 @@ section {
   justify-content: center;
 }
 
-.section-header img {
+.section-header img:first-child {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -94,24 +97,35 @@ section {
   filter: brightness(50%);
 }
 
+.section-header .logo {
+  height: 80%;
+  width: auto;
+  z-index: 999;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 50%;
+}
+
 .section-header h2 {
   position: absolute;
-  font-family: 'Freehand', cursive;
+  font-family: var(--title-font);
   font-size: 4rem;
   color: var(--section-header-title);
 }
 
 .section-item {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: var(--menu-item-title);
 }
 
 .section-description {
   color: var(--menu-item-description);
+  font-size: 1.3rem;
 }
 
 .section-price {
   color: var(--menu-item-price);
+  font-size: 1.4rem;
 }
 
 .sub-section {
@@ -133,7 +147,7 @@ section {
 }
 
 .sub-section-item {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: var(--menu-item-title);
 }
 
@@ -143,6 +157,7 @@ section {
 
 .sub-section-price {
   color: var(--menu-item-price);
+  font-size: 1.2rem;
 }
 
 .entradas ul {
@@ -160,7 +175,7 @@ section {
   font-size: 1.5rem;
 }
 
-.desayunos-items-container {
+.desayunos-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 85vh;
@@ -169,12 +184,28 @@ section {
   gap: 0.5rem;
 }
 
-.desayunos-items-container ul {
+.desayunos-container .section-item {
+  font-size: 1.5rem;
+}
+
+.desayunos-container .sub-section-item {
+  font-size: 1rem;
+}
+
+.desayunos-container .section-description {
+  font-size: 1.2rem;
+}
+
+.desayunos-container .section-price {
+  font-size: 1.2rem;
+}
+
+.desayunos-container ul {
   list-style-type: none;
   height: 100%;
 }
 
-.desayunos-items-container ul li {
+.desayunos-container ul li {
   margin-bottom: 1.5rem;
 }
 
@@ -214,7 +245,7 @@ section {
 }
 
 .ensaladas .section-description {
-  font-size: 1.3rem;
+  /* font-size: 1.3rem; */
 }
 
 .ensaladas .section-price {
@@ -235,7 +266,7 @@ section {
   height: 80vh;
   place-content: center;
   padding: 1.5rem;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .pizzas-container ul {
@@ -244,6 +275,15 @@ section {
 
 .pizzas-container ul li {
   margin-bottom: 1.5rem;
+}
+
+.pizzas-container ul li > * {
+  /* margin: 5px; */
+}
+
+.pizzas-container .section-description {
+  font-size: 1.15rem;
+  line-height: 1.3rem;
 }
 
 .calzone ul {
@@ -263,4 +303,60 @@ section {
   text-align: center;
   justify-content: space-between;
   width: 100%;
+}
+
+.extras-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 80vw;
+  height: 85vh;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.extras-container .section-item {
+  font-size: 3rem;
+}
+
+.extras-container .section-description {
+  font-size: 1.5rem;
+}
+
+.pastas ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 80vw;
+  height: 85vh;
+  gap: 2rem;
+  margin: 0 auto;
+  list-style-type: none;
+  text-align: center;
+}
+
+.pastas ul li > * {
+  margin: 1.5rem;
+}
+
+.postres-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  max-width: 100vw;
+  margin: 0 auto;
+  height: 85vh;
+}
+
+.postres-container ul {
+  list-style-type: none;
+}
+
+.postres-container ul li {
+  margin: 1.5rem;
+}
+
+.postres-container ul li > * {
+  margin: 0.5rem;
 }
