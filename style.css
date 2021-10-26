@@ -288,6 +288,7 @@ section {
   height: calc(5vh - 1rem);
   margin-top: 1rem;
   color: grey;
+  padding: 0 1rem;
 }
 
 .pizzas-container {
