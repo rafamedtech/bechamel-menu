@@ -44,6 +44,7 @@ main {
   height: 5vh;
   font-size: 4rem;
   font-family: var(--title-font);
+  color: rgb(99, 191, 193);
 }
 
 .main-menu {
