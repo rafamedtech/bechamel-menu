@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
 
 :root {
   --section-header-title: white;
@@ -28,7 +29,7 @@ html {
 
 body {
   background-color: #e5e5e5;
-  font-family: monospace;
+  font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -274,7 +275,7 @@ section {
   height: 80vh;
   place-content: center;
   padding: 1.5rem;
-  gap: 1.5rem;
+  /* gap: 1.5rem; */
 }
 
 .pizzas-container ul {
