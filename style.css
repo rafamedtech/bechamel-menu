@@ -62,7 +62,7 @@ main {
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 1.5rem;
   max-width: 100%;
 }
 
@@ -72,6 +72,7 @@ main {
 }
 
 .main-menu ul li a {
+  display: block;
   background-color: var(--main-menu-items);
   padding: 1rem;
   border-radius: 1rem;
