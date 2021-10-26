@@ -75,7 +75,7 @@ main {
   background-color: var(--main-menu-items);
   padding: 1rem;
   border-radius: 1rem;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #e5e5e5;
   box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
 }
@@ -180,11 +180,15 @@ section {
   font-size: 1.5rem;
 }
 
+.desayunos {
+  height: auto;
+}
+
 .desayunos-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 85vh;
-  place-content: center;
+  /* height: 85vh; */
+  /* place-content: center; */
   padding: 1.5rem;
   gap: 0.5rem;
 }
@@ -214,8 +218,12 @@ section {
   margin-bottom: 1.5rem;
 }
 
+.especiales {
+  /* height: auto; */
+}
+
 .especiales-container {
-  height: 85vh;
+  /* height: 85vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -230,7 +238,7 @@ section {
   list-style-type: none;
   padding: 1.5rem;
   text-align: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .ensaladas ul {
