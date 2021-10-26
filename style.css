@@ -34,11 +34,7 @@ body {
 
 a {
   text-decoration: none;
-}
-
-main {
-  /* scroll-snap-type: y mandatory;
-  overflow-y: scroll; */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .menu-title {
@@ -82,21 +78,34 @@ main {
 }
 
 .btn {
+  opacity: 0;
+  transition: 0.1s;
   position: fixed;
   bottom: 1rem;
   right: 1rem;
   font-size: 2rem;
   padding: 1rem;
-  width: 4rem;
+  width: fit-content;
   height: 4rem;
-  border-radius: 50%;
+  border-radius: 1rem;
   border: 1px solid lightgray;
   z-index: 99999;
   box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
 }
 
+.btn.active {
+  opacity: 1;
+}
+
 .btn i {
+  display: inline;
+  margin-right: 1rem;
   color: var(--menu-sub-item-title);
+}
+
+.btn span {
+  color: var(--main-menu-items);
+  font-family: monospace;
 }
 
 section {
@@ -271,10 +280,6 @@ section {
 
 .ensaladas .section-item {
   font-size: 2.5rem;
-}
-
-.ensaladas .section-description {
-  /* font-size: 1.3rem; */
 }
 
 .ensaladas .section-price {
