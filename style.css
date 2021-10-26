@@ -62,7 +62,7 @@ main {
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2rem;
   max-width: 100%;
 }
 
@@ -75,6 +75,7 @@ main {
   background-color: var(--main-menu-items);
   padding: 1rem;
   border-radius: 1rem;
+  font-size: 1.3rem;
   color: #e5e5e5;
   box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
 }
