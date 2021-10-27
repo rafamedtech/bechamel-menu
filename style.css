@@ -39,7 +39,8 @@ a {
 
 .menu-title {
   text-align: center;
-  min-height: 5vh;
+  min-height: calc(5vh - 1rem);
+  margin-top: 1rem;
   font-size: 4rem;
   font-family: var(--title-font);
   color: rgb(99, 191, 193);
