@@ -193,7 +193,7 @@ section {
   font-size: 1.2rem;
 }
 
-.entradas ul {
+.appetizers ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -204,11 +204,11 @@ section {
   list-style-type: none;
 }
 
-.entradas ul li {
+.appetizers ul li {
   font-size: 1.5rem;
 }
 
-.desayunos-container {
+.breakfast-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: auto;
@@ -218,28 +218,28 @@ section {
   gap: 0.5rem;
 }
 
-.desayunos-container .section-item {
+.breakfast-container .section-item {
   font-size: 1.5rem;
 }
 
-.desayunos-container .sub-section-item {
+.breakfast-container .sub-section-item {
   font-size: 1rem;
 }
 
-.desayunos-container .section-description {
+.breakfast-container .section-description {
   font-size: 1.2rem;
 }
 
-.desayunos-container .section-price {
+.breakfast-container .section-price {
   font-size: 1.2rem;
 }
 
-.desayunos-container ul {
+.breakfast-container ul {
   list-style-type: none;
   height: 100%;
 }
 
-.desayunos-container ul li {
+.breakfast-container ul li {
   margin-bottom: 1.5rem;
 }
 
@@ -377,13 +377,113 @@ section {
   font-size: 2.5rem;
 }
 
+.bebidas-container {
+  min-height: calc(85vh - 2rem);
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  place-items: center;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.bebidas-container .bebidas-titles {
+  color: var(--menu-sub-item-title);
+  font-size: 2rem;
+}
+
+.bebidas-container .lemonades li {
+  margin: 1rem;
+}
+
+.bebidas-container ul {
+  list-style-type: none;
+  /* text-align: center; */
+}
+
+.bebidas-container .section-item h4 {
+  margin: 1rem;
+  font-weight: 400;
+}
+
+.cafe-container {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.cafe-container ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.cafe-container ul li {
+  margin: 0.5rem;
+}
+
+.cafe-container .cafe-titles {
+  color: var(--menu-sub-item-title);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.coffee-flavors .section-item {
+  font-weight: 400;
+}
+
+.station-coffee-container .cafe-titles {
+  color: var(--menu-sub-item-title);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.station-coffee-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  min-height: 85vh;
+  padding: 1rem 0;
+}
+
+.station-coffee-container ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 2rem;
+}
+
+.station-coffee-container ul li {
+  display: flex;
+  justify-content: space-between;
+  width: calc(50% - 1rem);
+}
+
+.station-coffee-container .frapp .section-item {
+  font-weight: 400;
+}
+
+.station-coffee-container .section-price {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+.station-coffee-container .section-description {
+  text-align: center;
+}
+
 .postres-container {
   display: flex;
   align-items: center;
   gap: 2rem;
   max-width: 100vw;
   margin: 0 auto;
-  height: 85vh;
+  min-height: 85vh;
+  background-color: #ffc0cb40;
 }
 
 .postres-container ul {
@@ -399,21 +499,10 @@ section {
   margin: 0.5rem;
 }
 
-.bebidas-container {
-  min-height: calc(85vh - 2rem);
-  display: grid;
-  grid-template-rows: repeat(3, 1fr);
-  place-items: center;
-  text-align: center;
-  margin: 1rem 0;
-}
-
-.bebidas-container .bebidas-titles {
+.postres-container .section-item {
   color: var(--menu-sub-item-title);
-  font-size: 2rem;
 }
 
-.bebidas-container ul {
-  list-style-type: none;
-  /* text-align: center; */
+.postres-container .section-price {
+  color: var(--menu-item-title);
 }
