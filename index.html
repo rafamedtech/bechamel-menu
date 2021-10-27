@@ -7,6 +7,7 @@
     <title>Bechamel Guaymas</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header id="start" class="section-header">
@@ -22,7 +23,7 @@
     </button>
     <main>
       <h2 class="menu-title">Menú</h2>
-      <section class="main-menu">
+      <section data-aos="zoom-in" class="main-menu">
         <ul>
           <li><a href="#appetizers">ENTRADAS</a></li>
           <li><a href="#breakfast">DESAYUNOS</a></li>
@@ -45,7 +46,7 @@
           />
           <h2>Entradas</h2>
         </article>
-        <ul>
+        <ul data-aos="fade-up">
           <li>
             <h4 class="section-item">Meatballs</h4>
             <p class="section-description">Bolitas de carne rellenas de queso en salsa marinara.</p>
@@ -58,11 +59,6 @@
             </p>
             <h4 class="section-price">$105</h4>
           </li>
-          <!-- <li>
-            <h4 class="section-item">Tartar de atún</h4>
-            <p class="section-description">Atún fresco marinado en salsa negra.</p>
-            <h4 class="section-price">$155</h4>
-          </li> -->
           <li>
             <h4 class="section-item">Mordiscos de fruta</h4>
             <p class="section-description">
@@ -82,6 +78,18 @@
             <p class="section-description">Cremoso dip de espinaca, tomate cherry y crotones.</p>
             <h4 class="section-price">$110</h4>
           </li>
+          <li>
+            <h4 class="section-item">Champiñones al ajillo</h4>
+            <p class="section-description">Champiñón salteado con vino blanco y ajo.</p>
+            <h4 class="section-price">$110</h4>
+          </li>
+          <li>
+            <h4 class="section-item">Calabaza frita</h4>
+            <p class="section-description">
+              Calabaza empanizada, servida con aderezo especial de pepino y un toque de wasabi.
+            </p>
+            <h4 class="section-price">$110</h4>
+          </li>
         </ul>
       </section>
 
@@ -93,7 +101,7 @@
           />
           <h2>Desayunos</h2>
         </article>
-        <article class="breakfast-container">
+        <article data-aos="fade-up" class="breakfast-container">
           <ul>
             <li>
               <h4 class="section-item">Croissant caliente</h4>
@@ -203,20 +211,8 @@
           />
           <h2>Especiales del mes</h2>
         </article>
-        <div class="especiales-container">
+        <div data-aos="fade-up" class="especiales-container">
           <ul>
-            <li>
-              <h4 class="section-item">Champiñones al ajillo</h4>
-              <p class="section-description">Champiñón salteado con vino blanco y ajo.</p>
-              <h4 class="section-price">$110</h4>
-            </li>
-            <li>
-              <h4 class="section-item">Calabaza frita</h4>
-              <p class="section-description">
-                Calabaza empanizada, servida con aderezo especial de pepino y un toque de wasabi.
-              </p>
-              <h4 class="section-price">$110</h4>
-            </li>
             <li>
               <h4 class="section-item">Pork chop glaseado de cebolla</h4>
               <p class="section-description">
@@ -262,7 +258,7 @@
           />
           <h2>Ensaladas</h2>
         </article>
-        <ul>
+        <ul data-aos="fade-up">
           <li>
             <h4 class="section-item">Caprese</h4>
             <p class="section-description">Medallas de queso con tomate y marinado pesto.</p>
@@ -300,7 +296,7 @@
           <h2>Pizzas</h2>
         </article>
         <span>Todas nuestras pizzas tienen un tamaño de 12" y 8 rebanadas</span>
-        <div class="pizzas-container">
+        <div data-aos="fade-up" class="pizzas-container">
           <ul>
             <li>
               <h4 class="section-item">Española</h4>
@@ -389,7 +385,7 @@
           />
           <h2>Calzone y Submarinos</h2>
         </article>
-        <ul>
+        <ul data-aos="fade-up">
           <li>
             <h4 class="section-item">Margarita</h4>
             <h4 class="section-price">$165</h4>
@@ -449,7 +445,7 @@
           <h2>Ingredientes Extra</h2>
         </article>
 
-        <article class="extras-container">
+        <article data-aos="fade-up" class="extras-container">
           <h4 class="section-item">Carnes, quesos y otros</h4>
           <p class="section-description">
             Pepperoni, jamón de pavo, jamón serrano, salami, chorizo español, salchicha italiana,
@@ -475,10 +471,12 @@
           />
           <h2>Pastas</h2>
         </article>
-        <ul>
+        <ul data-aos="fade-up">
           <li>
-            <h4 class="section-item">Alfredo con pollo</h4>
-            <p class="section-description">Pasta de la casa con crema especial y pollo.</p>
+            <h4 class="section-item">Alfredo</h4>
+            <p class="section-description">
+              Pasta de la casa con crema especial y pollo o camarón.
+            </p>
             <h4 class="section-price">$185</h4>
           </li>
           <li>
@@ -507,7 +505,7 @@
           />
           <h2>Bebidas</h2>
         </article>
-        <div class="bebidas-container">
+        <div data-aos="fade-up" class="bebidas-container">
           <div class="lemonades">
             <h4 class="bebidas-titles">Limonadas</h4>
             <ul>
@@ -542,7 +540,7 @@
               <li class="section-item"><h4>Tropical</h4></li>
               <li class="section-item"><h4>Mango</h4></li>
               <li class="section-item"><h4>Limon</h4></li>
-              <li><h4 class="section-price">$45</h4></li>
+              <li><h4 class="section-price">$65</h4></li>
             </ul>
           </div>
         </div>
@@ -556,7 +554,7 @@
           />
           <h2>Café</h2>
         </article>
-        <div class="cafe-container">
+        <div data-aos="fade-up" class="cafe-container">
           <article>
             <ul>
               <li>
@@ -634,7 +632,7 @@
           />
           <h2>Station Coffee</h2>
         </article>
-        <div class="station-coffee-container">
+        <div data-aos="fade-up" class="station-coffee-container">
           <article>
             <h4 class="cafe-titles">Latte</h4>
             <ul>
@@ -749,7 +747,7 @@
           <h2>Postres</h2>
         </article>
 
-        <div class="postres-container">
+        <div data-aos="fade-up" class="postres-container">
           <ul>
             <li>
               <h4 class="section-item">Churro cheesecake</h4>
@@ -793,17 +791,14 @@
               </p>
               <h4 class="section-price">$95</h4>
             </li>
-            <!-- <li>
-              <h4 class="section-item">Arroz con leche</h4>
-              <p class="section-description">
-                Tradicional y cremoso arroz con leche servido en copa con caramelo y canela.
-              </p>
-              <h4 class="section-price">$35</h4>
-            </li> -->
           </ul>
         </div>
       </section>
     </main>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
