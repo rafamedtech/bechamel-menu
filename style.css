@@ -245,6 +245,10 @@ section {
   margin-bottom: 1.5rem;
 }
 
+.especiales .section-header h2 {
+  font-size: 3rem;
+}
+
 .especiales-container {
   min-height: 85vh;
   display: flex;
