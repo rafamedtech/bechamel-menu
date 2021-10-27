@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
 
 :root {
@@ -6,7 +6,7 @@
 
   /* --main-menu-items: rgb(177, 118, 41); */
   --main-menu-items: rgb(130, 198, 126);
-  --title-font: 'Freehand', cursive;
+  --title-font: 'Handlee', cursive;
 
   --menu-item-title: rgb(99, 191, 193);
   --menu-item-description: grey;
@@ -416,6 +416,7 @@ section {
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
+  background-color: #ffc0cb40;
 }
 
 .cafe-container ul {
@@ -450,6 +451,7 @@ section {
   gap: 1.5rem;
   min-height: 85vh;
   padding: 1rem 0;
+  background-color: #ffc0cb40;
 }
 
 .station-coffee-container ul {
@@ -482,8 +484,9 @@ section {
 
 .postres-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
   max-width: 100vw;
   margin: 0 auto;
   min-height: 85vh;
@@ -491,12 +494,15 @@ section {
 }
 
 .postres-container ul {
-  height: 100%;
+  min-height: 100%;
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
 }
 
 .postres-container ul li {
-  margin: 1.5rem;
+  margin: 1rem;
+  text-align: center;
 }
 
 .postres-container ul li > * {
