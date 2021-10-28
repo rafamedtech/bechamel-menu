@@ -477,6 +477,10 @@ section {
   font-weight: 400;
 }
 
+.station-coffee {
+  background-color: #ffc0cb40;
+}
+
 .station-coffee-container .cafe-titles {
   color: var(--menu-sub-item-title);
   font-size: 2rem;
@@ -490,7 +494,6 @@ section {
   gap: 1.5rem;
   min-height: 85vh;
   padding: 1rem 0;
-  background-color: #ffc0cb40;
 }
 
 .station-coffee-container ul {
