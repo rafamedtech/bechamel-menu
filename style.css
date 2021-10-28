@@ -116,7 +116,7 @@ a {
 .btn.coffee-station {
   position: relative;
   opacity: 1;
-  margin: 0 auto 0 1rem;
+  margin: 0 auto -1rem 1rem;
   right: revert;
   background-color: var(--menu-item-title);
   color: #fff;
