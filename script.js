@@ -1,10 +1,18 @@
 const backButton = document.querySelector('.btn');
+const menuTitle = document.getElementById('menu');
+const menuHeader = document.getElementById('header');
 
-document.addEventListener('dblclick', () => {
+menuTitle.addEventListener('click', showMainMenu);
+
+function showMainMenu() {
   document.documentElement.requestFullscreen().catch((e) => {
     console.log(e);
   });
-});
+  menuTitle.classList.remove('active');
+  menuHeader.classList.remove('active');
+}
+
+document.addEventListener('dblclick', () => {});
 
 window.addEventListener('scroll', showMenu);
 
