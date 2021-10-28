@@ -448,6 +448,10 @@ section {
   font-weight: 400;
 }
 
+.cafe {
+  background-color: #ffc0cb40;
+}
+
 .cafe-container {
   min-height: 85vh;
   display: flex;
@@ -455,7 +459,6 @@ section {
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
-  background-color: #ffc0cb40;
 }
 
 .cafe-container ul {
