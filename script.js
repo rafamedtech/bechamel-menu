@@ -10,12 +10,12 @@ window.addEventListener('scroll', showMenu);
 
 // Functions
 function showMainMenu() {
-  document.documentElement.requestFullscreen().catch((e) => {
-    console.log(e);
-  });
   menuTitle.classList.remove('active');
   menuHeader.classList.remove('active');
   logo.classList.remove('active');
+  document.documentElement.requestFullscreen().catch((e) => {
+    console.log(e);
+  });
 }
 
 function showMenu() {
