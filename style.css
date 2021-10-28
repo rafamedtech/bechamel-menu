@@ -138,6 +138,10 @@ section {
   /* scroll-snap-align: start; */
 }
 
+.sections {
+  display: none;
+}
+
 .section-header {
   position: relative;
   height: 15vh;
