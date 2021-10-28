@@ -113,6 +113,15 @@ a {
   opacity: 1;
 }
 
+.btn.coffee-station {
+  position: relative;
+  opacity: 1;
+  margin: 0 auto;
+  right: revert;
+  background-color: var(--menu-item-title);
+  color: #fff;
+}
+
 .btn i {
   display: inline;
   margin-right: 1rem;
