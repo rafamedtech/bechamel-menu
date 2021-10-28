@@ -1,6 +1,7 @@
 const backButton = document.querySelector('.btn');
 const menuTitle = document.getElementById('menu');
 const menuHeader = document.getElementById('header');
+const logo = document.querySelector('.logo');
 
 menuTitle.addEventListener('click', showMainMenu);
 
@@ -10,6 +11,7 @@ function showMainMenu() {
   });
   menuTitle.classList.remove('active');
   menuHeader.classList.remove('active');
+  logo.classList.remove('active');
 }
 
 document.addEventListener('dblclick', () => {});

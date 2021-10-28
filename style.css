@@ -161,6 +161,10 @@ section {
   border-radius: 50%;
 }
 
+.logo.active {
+  margin-bottom: 5rem;
+}
+
 .section-header h2 {
   position: absolute;
   font-family: var(--title-font);
