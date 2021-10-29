@@ -1,4 +1,4 @@
-// Dom items
+// DOM items
 const backButton = document.querySelector('.btn');
 const menuTitle = document.getElementById('menu');
 const menuHeader = document.getElementById('header');

@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
 
 :root {
   --section-header-title: white;
@@ -120,6 +119,16 @@ a {
   right: revert;
   background-color: var(--menu-item-title);
   color: #fff;
+}
+
+.btn.ing-ext {
+  position: relative;
+  opacity: 1;
+  margin-top: 10px;
+  right: revert;
+  background-color: var(--menu-item-title);
+  color: #fff;
+  font-size: 1.5rem;
 }
 
 .btn i {
@@ -369,6 +378,25 @@ section {
 .calzone ul {
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  /* min-height: 85vh; */
+  max-width: 50vw;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.calzone ul li {
+  display: flex;
+  /* text-align: center; */
+  justify-content: space-between;
+  width: 100%;
+}
+
+.calzone-container {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -378,11 +406,50 @@ section {
   gap: 2rem;
 }
 
-.calzone ul li {
+.calzone-container .items-list {
   display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  width: 100vw;
+}
+
+/* .calzone .slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.calzone i {
   text-align: center;
-  justify-content: space-between;
-  width: 100%;
+  color: var(--menu-item-title);
+  font-size: 2rem;
+}
+
+.calzone span {
+  /* display: block; 
+  /* width: 80%; 
+  text-align: center;
+  color: var(--menu-sub-item-title);
+  font-size: 2rem;
+  margin: 0 2rem;
+} */
+
+.carrousel-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  overflow-x: scroll;
+  gap: 2rem;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+
+.carrousel-container img {
+  width: 45%;
+  scroll-snap-align: center;
+  border-radius: 1rem;
 }
 
 .extras .section-header h2 {
