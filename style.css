@@ -314,6 +314,21 @@ section {
   gap: 2rem;
 }
 
+.especiales-carrousel {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  overflow-x: scroll;
+  padding: 1rem;
+}
+
+.especiales-carrousel img {
+  width: 30%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
 .ensaladas ul {
   display: flex;
   flex-direction: column;
@@ -413,42 +428,17 @@ section {
   width: 100vw;
 }
 
-/* .calzone .slider {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 100%;
-}
-
-.calzone i {
-  text-align: center;
-  color: var(--menu-item-title);
-  font-size: 2rem;
-}
-
-.calzone span {
-  /* display: block; 
-  /* width: 80%; 
-  text-align: center;
-  color: var(--menu-sub-item-title);
-  font-size: 2rem;
-  margin: 0 2rem;
-} */
-
 .carrousel-container {
   width: 100vw;
   display: flex;
   justify-content: center;
   padding: 2rem;
-  overflow-x: scroll;
   gap: 2rem;
-  overscroll-behavior-x: contain;
-  scroll-snap-type: x proximity;
 }
 
 .carrousel-container img {
   width: 45%;
-  scroll-snap-align: center;
+  scroll-snap-align: start;
   border-radius: 1rem;
 }
 
