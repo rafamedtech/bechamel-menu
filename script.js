@@ -12,6 +12,7 @@ window.addEventListener('scroll', showMenu);
 // Functions
 function showMainMenu() {
   menuTitle.classList.remove('active');
+  menuTitle.innerText = 'Menú';
   menuHeader.classList.remove('active');
   logo.classList.remove('active');
   sections.forEach((section) => section.classList.remove('sections'));
