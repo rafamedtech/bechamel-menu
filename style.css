@@ -440,6 +440,7 @@ section {
   width: 45%;
   scroll-snap-align: start;
   border-radius: 1rem;
+  object-fit: cover;
 }
 
 .extras .section-header h2 {
