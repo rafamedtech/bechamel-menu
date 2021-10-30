@@ -431,6 +431,7 @@ section {
   overflow-x: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
+  margin-bottom: 2rem;
 }
 
 .carrousel-container img {
