@@ -434,11 +434,19 @@ section {
   margin-bottom: 2rem;
 }
 
+.carrousel-container.second {
+  justify-content: center;
+}
+
 .carrousel-container img {
   width: 60%;
   scroll-snap-align: center;
   border-radius: 1rem;
   object-fit: cover;
+}
+
+.carrousel-container img.second {
+  width: 45%;
 }
 
 .extras .section-header h2 {
