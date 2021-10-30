@@ -333,7 +333,7 @@ section {
   padding: 1.5rem;
   text-align: center;
   gap: 2rem;
-  height: 85vh;
+  min-height: 85vh;
 }
 
 .ensaladas ul li > * {
@@ -636,4 +636,14 @@ section {
 
 .postres-container .section-price {
   color: var(--menu-item-title);
+}
+
+@media (min-width: 687px) {
+  .carrousel-container {
+    justify-content: center;
+  }
+
+  .carrousel-container img {
+    width: 30%;
+  }
 }
