@@ -58,6 +58,11 @@ a {
   cursor: pointer;
 }
 
+.menu-title.active:active {
+  background-color: #fff;
+  color: var(--menu-item-title);
+}
+
 .main-menu {
   min-height: 80vh;
   display: flex;
@@ -638,7 +643,7 @@ section {
   color: var(--menu-item-title);
 }
 
-@media (min-width: 687px) {
+@media (min-width: 678px) {
   .carrousel-container {
     justify-content: center;
   }
