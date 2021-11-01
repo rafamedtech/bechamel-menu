@@ -189,11 +189,16 @@ section {
 }
 
 .section-header .logo {
-  font-size: 3.5rem;
+  font-size: 4rem;
   color: #e5e5e5;
   text-align: center;
   font-family: var(--title-font);
   z-index: 999;
+}
+
+.section-header .logo span {
+  font-weight: 400;
+  font-size: 3rem;
 }
 
 .logo.active {
