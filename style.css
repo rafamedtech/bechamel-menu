@@ -310,9 +310,9 @@ section {
 }
 
 .especiales-container {
-  min-height: 85vh;
+  /* min-height: 85vh; */
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   /* justify-content: center; */
   gap: 1rem;
 }
@@ -320,11 +320,11 @@ section {
 .especiales ul {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   list-style-type: none;
   padding: 1.5rem;
-  text-align: center;
+  /* text-align: center; */
   gap: 1rem;
 }
 
