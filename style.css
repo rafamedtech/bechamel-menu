@@ -213,7 +213,8 @@ section {
 }
 
 .section-item {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
+  /* font-size: 1.8rem; */
   color: var(--menu-item-title);
 }
 
