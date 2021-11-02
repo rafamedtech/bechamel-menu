@@ -332,13 +332,8 @@ section {
   gap: 1rem;
 }
 
-.especiales .sub-section ul {
-  flex-direction: row;
-  align-items: flex-start;
-}
-
-.especiales .sub-section ul li {
-  width: 50%;
+.especiales .section-item {
+  font-size: 1.5rem;
 }
 
 .ensaladas ul {
