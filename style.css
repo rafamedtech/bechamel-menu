@@ -655,6 +655,9 @@ section {
 }
 
 @media (min-width: 678px) {
+  .section-header#header {
+    height: 100%;
+  }
   .carrousel-container {
     justify-content: center;
   }
