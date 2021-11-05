@@ -3,7 +3,6 @@
 :root {
   --section-header-title: white;
 
-  /* --main-menu-items: rgb(177, 118, 41); */
   --main-menu-items: rgb(130, 198, 126);
   --title-font: 'Handlee', cursive;
 
@@ -23,7 +22,7 @@
 html {
   font-size: 62.5%;
   font-family: sans-serif;
-  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
 }
 
 body {
