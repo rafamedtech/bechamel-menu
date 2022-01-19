@@ -57,10 +57,10 @@ a {
   cursor: pointer;
 }
 
-.menu-title.active:active {
+/* .menu-title.active:active {
   background-color: #fff;
   color: var(--menu-item-title);
-}
+} */
 
 .main-menu {
   min-height: 80vh;
@@ -95,12 +95,12 @@ a {
   transition: 0.2s;
 }
 
-.main-menu ul li a:active,
+/* .main-menu ul li a:active,
 .main-menu ul li a:hover {
   background-color: #fff;
   color: var(--main-menu-items);
   transition: 0.2s;
-}
+} */
 
 .btn {
   display: flex;
@@ -157,7 +157,6 @@ a {
 
 section {
   min-height: 100vh;
-  /* scroll-snap-align: start; */
 }
 
 .sections {
