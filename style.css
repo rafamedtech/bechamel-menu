@@ -331,6 +331,12 @@ section {
   gap: 5rem;
 }
 
+.especiales ul span {
+  font-size: 1.5rem;
+  color: var(--menu-sub-item-title);
+  font-family: var(--title-font);
+}
+
 .especiales .section-item {
   font-size: 1.5rem;
 }
