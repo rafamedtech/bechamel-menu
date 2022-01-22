@@ -323,7 +323,7 @@ section {
 .especiales ul {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   list-style-type: none;
   padding: 1.5rem;
